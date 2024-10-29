@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap")
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body {
+	font-family: 'Lora' , serif; 
+	font-size: 30px;
+	margin: 0;
+	background-color: rgb(225, 225, 210);
+}
+
+.top-section {
+	h1, h2,h3,p{
+	font-family:'Roboto', sans-serif;
+	font-weight: bold;
+	color: white;}
+  text-align: center;
+
+}
+
+.bottom-section {
+	h1, h2,h3,p{
+	font-family:'Roboto', sans-serif;
+	font-weight: bold;
+	color: black;}
+  margin: 50px 0;
+}
+
+a {
+	text-decoration: none ;
+}
+
+.europe {
+	padding-top: 100px;
+	margin-top: 0px;}
+
+
+
+.btn-blue {
+  display: inline-block;
+  background-color: rgb(207, 185, 151); 
+  color: white; 
+  width: 300px;                   
+  height: auto;  
+  padding: 5px 10px; 
+  text-align: center; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  transition: background-color 0.3s; 
+}
+
+.btn-blue:hover {
+  background-color: rgb(225, 225, 210); 
+}
+.bottom-section {
+	margin: 50px 0;
+}
+
+
+[data-tf-live] {
+    width: 100%;      
+    max-width: 500px; 
+    height: 75px;
+    margin: 0 auto;   
+    margin-top: 150px;
+}
+
+
+
+h2 {
+  font-size: 1.5em;   
+  margin-bottom: 5px; 
+}
+
+
+h2 + p {
+  font-size: 0.9em;    
+  margin-top: 0;       
+  color: #666;        
+}
+
+.link-section {
+  margin-top: 20px;   }    
+
+.link-section a.btn-blue {
+  display: block;
+  margin-bottom: 20px;    
+}
+
+.link-section p {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;         
+}
+
+.bottom-section {
+    position: relative; /* Nécessaire pour positionner l'enfant absolu */
+    margin: 50px;
+}
+
+.review-link {
+	position: absolute;
+    bottom: 0px; /* Ajustez la distance du bas */
+    right: 0px; /* Ajustez la distance de la droite */
+    border-radius: 5px; /* Arrondi des bords */
+    padding: 5px; /* Rembourrage autour du texte */
+}
+
+.review-link a {
+    font-size: 0.8em; /* Taille de police réduite */
+    color: white; /* Couleur du lien */
+    text-decoration: none; /* Enlève le soulignement */
+}
+
+.review-link a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+}
+
+ 
+
+
+

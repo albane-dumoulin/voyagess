@@ -1,0 +1,13 @@
+ .container {
+ 	width: 700px;
+ 	margin: 25px auto;
+ 	border-radius: 50px;
+ }
+
+.container > a:first-of-type {
+  margin-bottom: 20px; 
+
+.container p {
+  margin-top: 0px; 
+}
+ 
